@@ -1,0 +1,13 @@
+.paymentConf {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10%;
+}
+
+.salutation {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}

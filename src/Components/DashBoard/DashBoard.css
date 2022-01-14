@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  margin: 0px 1px 0px 1px;
+  padding: 5px 3px 5px 3px;
+}
+nav a:hover {
+  color: white;
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+section {
+  display: flex;
+  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: whitesmoke;
+}

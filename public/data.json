@@ -1,0 +1,31 @@
+[{
+    "id" : 1,
+    "product" : "UK-0143K",
+    "store" : "UK",
+    "price" : 1500,
+    "caption":"Wonderful Car",
+    "image":"car.jpeg",
+    "validity" : 2021,
+    "name" : "Mr John"
+},
+{
+    "id" : 2,
+    "product" : "DL-0964L",
+    "store" : "India",
+    "price" : 1000,
+    "caption":"Amazing Bus",
+    "image":"bus.jpeg",
+    "validity" : 2022,
+    "name" : "Mr Kapoor"
+},
+{
+    "id" : 3,
+    "product" : "NY-007M",
+    "store" : "USA",
+    "price" : 2000,
+    "caption":"Racing Bike",
+    "image":"bike.jpg",
+    "validity" : 2023,
+    "name" : "Mr Starc"
+}
+]

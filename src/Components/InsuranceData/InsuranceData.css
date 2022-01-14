@@ -1,0 +1,90 @@
+.card {
+  height: auto;
+  box-shadow: 0px 0px 3px 1px gray;
+  flex: 0 0 30%;
+  margin: 10px 20px;
+  background-color: white;
+  padding: 25px;
+}
+figure {
+  width: 100%;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1.1em;
+  margin-top: 1%;
+}
+
+.discount {
+  display: flex;
+  margin: 0.5em 0;
+}
+
+.reject {
+  border: 1px solid red;
+  padding: 2px;
+}
+
+.apply {
+  border: 1px solid;
+  padding: 2px;
+}
+.end {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+.primaryButton {
+  border-radius: 5%;
+  border: 0px solid black;
+  box-shadow: 2px 2px 2px 0px;
+  padding: 15px;
+  background-color: #151a4f;
+  color: white;
+}
+.inputButton {
+  padding: 3px 5px;
+}
+
+.secondaryButton {
+  border-radius: 3%;
+  border: 0px solid black;
+  box-shadow: 2px 2px 2px 0px;
+  padding: 5px;
+  background-color: #151a4f;
+  color: white;
+}
+
+.secondaryButtonDisabled {
+  border-radius: 3%;
+  border: 0px solid black;
+  box-shadow: 2px 2px 2px 0px;
+  padding: 5px;
+  background-color: #151a4f;
+  color: white;
+  opacity: 0.5;
+}
+.priceDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primaryButtonDisabled {
+  border-radius: 5%;
+  border: 0px solid black;
+  box-shadow: 2px 2px 2px 0px;
+  padding: 15px;
+  background-color: #151a4f;
+  color: white;
+  opacity: 0.5;
+}
